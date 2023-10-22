@@ -1,0 +1,62 @@
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: white;
+    pointer-events: none;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+
+
+button{
+    font-family: 'Poppins', sans-serif;
+    padding: 5% 8%;
+}
+
+.check-btn{
+    background-color:   #000;
+    color: hsla(0, 0%, 100%, 0.584);
+    text-shadow: 0 2px 3px 0.125em hsla(170, 100%, 50%, 0.8);
+    box-shadow: 0 2px 3px 0.125em hsl(0 0% 100%/0.3);
+    
+}
+.new-btn{
+    background-color:blue;
+    color: white;
+
+}
+
+.tile-list--form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+input{
+    text-align: center;
+    transition: 0.5s;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 5% 1%;
+    margin: 1%;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+input:hover{
+    opacity: 0.5;
+}

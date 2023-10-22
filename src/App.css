@@ -1,0 +1,59 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+html{
+    background-color: #000;
+}
+
+h1{
+    color: #fff;
+}
+
+.turns{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+
+.turn-span{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+/* 
+.turn{
+    margin-right: 3%;
+} */
+
+.turns span
+{
+    margin-right: 10%;
+}
+
+
+.utility{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.win--lose{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2.34rem;
+    transition: 0.3s;
+}
+.word{
+    font-size: 1.5rem;
+}
+
+.word  span{
+    font-family: monospace;
+}
+
